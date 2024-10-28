@@ -53,13 +53,13 @@ cd red_bus_scraping
 2.	Install the required Python packages:
 pip install -r requirements.txt
 3.	Set up your SQL database and update the connection details in sql_script.ipynb and streamlit_app.py.
+
 Usage
 1.	Run the web scraping script: Open red_bus_scraping.ipynb in Jupyter Notebook and execute the cells to scrape data from the Red Bus website.
 2.	Insert data into the SQL database: Open sql_script.ipynb in Jupyter Notebook and execute the cells to insert the scraped data into your SQL database.
 3.	Run the Streamlit app:
 streamlit run streamlit_app.py
 This will start the Streamlit server and open the app in your default web browser.
+
 Contributing
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request for review. For significant changes, open an issue first to discuss your proposed changes.
-
-
