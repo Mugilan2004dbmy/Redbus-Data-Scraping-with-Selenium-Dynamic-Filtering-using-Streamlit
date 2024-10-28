@@ -62,4 +62,4 @@ streamlit run streamlit_app.py
 This will start the Streamlit server and open the app in your default web browser.
 
 Contributing
-Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request for review. For significant changes, open an issue first to discuss your proposed changes.
+1.  Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request for review. For significant changes, open an issue first to discuss your proposed changes.
