@@ -48,7 +48,7 @@ Ensure you have the following installed before starting:
 
 Installation
 1.	Clone the repository:
-git clone https://github.com/arunachaladevaraj/red_bus_scraping.git
+git clone https://github.com/Mugilan2004dbmy/Redbus-Data-Scraping-with-Selenium-Dynamic-Filtering-using-Streamlit
 cd red_bus_scraping
 2.	Install the required Python packages:
 pip install -r requirements.txt
