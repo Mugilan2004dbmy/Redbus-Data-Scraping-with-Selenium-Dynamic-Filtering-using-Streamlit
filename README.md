@@ -3,14 +3,23 @@ Red bus Data Scraping with Selenium & Dynamic Filtering using Streamlit
 This repository contains a comprehensive solution for scraping, storing, and visualizing bus travel data from the Red Bus website. The project utilizes Selenium for web scraping, SQL for data storage, and Streamlit for data visualization.
 
 Table of Contents
+
 •	Introduction
+
 •	Skills Acquired
+
 •	Problem Statement
+
 •	Approach
+
 •	Project Structure
+
 •	Prerequisites
+
 •	Installation
+
 •	Usage
+
 •	Contributing
 
 Introduction
@@ -20,9 +29,13 @@ This project aims to provide a robust solution for collecting, analyzing, and vi
 3.	Streamlit App: Visualizes the data stored in the SQL database.
 
 Skills Acquired
+
 •	Web Scraping using Selenium
+
 •	Python Programming
+
 •	Data Visualization with Streamlit
+
 •	SQL Database Management
 
 Problem Statement
