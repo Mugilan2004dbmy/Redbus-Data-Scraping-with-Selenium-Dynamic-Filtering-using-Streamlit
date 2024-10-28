@@ -31,43 +31,64 @@ The "Red bus Data Scraping and Filtering with Streamlit Application" project see
 Approach
 
 Data Scraping
+
 •	Utilize Selenium to automate the extraction of data from the Red bus website, including routes, schedules, prices, and seat availability.
 
 Data Storage
+
 •	Store the scraped data in a SQL database.
 
 Streamlit Application
+
 •	Develop a Streamlit application to display and filter the scraped data.
+
 •	Implement filters such as bus type, route, price range, star rating, and availability.
 
 Data Analysis/Filtering using Streamlit
+
 •	Execute SQL queries to retrieve and filter data based on user inputs.
+
 •	Leverage Streamlit to allow users to interact with and filter the data through the application.
 
 Project Structure
+
 •	red_bus_scraping.ipynb: Jupyter notebook containing the Selenium script for scraping data from the Red Bus website.
+
 •	sql_script.ipynb: Jupyter notebook containing the SQL script for inserting the scraped data into a SQL database.
+
 •	streamlit_app.py: Streamlit application script for displaying the scraped data.
 
 Prerequisites
+
 Ensure you have the following installed before starting:
+
 •	Python 3.x
+
 •	Jupyter Notebook
+
 •	Selenium
+
 •	Streamlit
+
 •	SQL Database (e.g., SQLite, MySQL, PG Admin4)
 
 Installation
+
 1.	Clone the repository:
 git clone https://github.com/Mugilan2004dbmy/Redbus-Data-Scraping-with-Selenium-Dynamic-Filtering-using-Streamlit
 cd red_bus_scraping
+
 2.	Install the required Python packages:
 pip install -r requirements.txt
+
 3.	Set up your SQL database and update the connection details in sql_script.ipynb and streamlit_app.py.
 
 Usage
+
 1.	Run the web scraping script: Open red_bus_scraping.ipynb in Jupyter Notebook and execute the cells to scrape data from the Red Bus website.
+
 2.	Insert data into the SQL database: Open sql_script.ipynb in Jupyter Notebook and execute the cells to insert the scraped data into your SQL database.
+
 3.	Run the Streamlit app:
 streamlit run streamlit_app.py
 This will start the Streamlit server and open the app in your default web browser.
